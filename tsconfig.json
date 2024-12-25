@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "module": "ESNext",
+        "module": "CommonJS",
         "allowJs": true,
         "sourceMap": true,
         "outDir": "build/src",
@@ -16,6 +16,7 @@
         "resolveJsonModule": true,
         "skipLibCheck": false,
         "jsx": "react",
+        "typeRoots": ["./node_modules/@types", "./types"]
     },
     "include": ["src/**/*", "__tests__/**/*"]
 }
